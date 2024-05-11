@@ -1,0 +1,13 @@
+:root {
+    --off-white-blue: #f2f7fc;
+    --red: #B20C18;
+    --faded-red: #b20c17b9;
+    --light-red: #e64e5b;
+    --blue: #101763;
+    --min-wdith: 370px;
+    --max-width: 800px;
+}
+
+.red {
+    color: var(--red);
+}

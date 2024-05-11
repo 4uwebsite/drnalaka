@@ -1,0 +1,207 @@
+@import url('./variables.css');
+@import url('./util.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('./animations.css');
+@import url('./floating-button.css');
+@import url('./floating-sec.css');
+
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #333;
+    padding: 0.3em;
+}
+
+p {
+    margin: 0 0 0.5em 0;
+    max-width: 40ch;
+    line-height: 1.4rem;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+/* Page Container */
+.page-container {
+    background-color: var(--off-white-blue);
+    max-width: var(--max-width);
+    min-width: var(--min-wdith);
+    margin: 1em auto;
+    padding: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5em;
+}
+
+/* Doc-Title section start */
+
+.doc-title {
+    font-size: 1.44rem; /* h4 */
+}
+
+.doc-name {
+    text-transform: uppercase;
+}
+
+.domain-name a {
+    font-weight: 800;
+}
+
+/* Doc-Title section end */
+
+/* logo-sec start */
+
+.logo-sec {
+    border-radius: 0.5em;
+    background-color: white;
+    width: 100px;
+    margin: 0.7em auto;
+}
+
+.logo-sec img {
+    width: 100px;
+}
+
+/* logo-sec end */
+
+/* docmeta-sec start */
+
+.docmeta-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    font-size: 0.833rem;
+}
+
+.label {
+    min-width: 6em;
+}
+
+.docmeta-sec ul li{
+    font-size: 0.694rem;
+}
+
+.label li {
+    font-weight: 400;
+}
+
+.col ul li {
+    list-style-type: none;
+    margin: 0.2em 0.5em;
+}
+
+/* docmeta-sec end */
+
+.header-hr {
+    margin: 1em 0.4em 2em;
+}
+
+/* sec start */
+
+.sec {
+    padding: 1em 0.4em;
+}
+
+.sec-title {
+    color: var(--blue);
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: white;
+    padding: 0.3em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5em;
+    animation: sec-title-box-shaddow 3s infinite alternate;
+}
+
+.sec-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em 0.4em;
+}
+
+.sec-h1 {
+    font-size: 1.05rem;
+    color: var(--blue);
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+
+.sec i {
+    color: var(--red);
+    font-size: 1.2rem;
+}
+
+.sec-col ul li {
+    list-style-position: inside;
+    margin-bottom: 0.2em;
+}
+
+.sec-col ul li ul li {
+    margin-left: 1.4em;
+}
+
+.list-label {
+    font-weight: 400;
+}
+
+.note {
+    font-size: 0.694rem;
+    margin: 0.8em 0;
+}
+
+.performance-bugs {
+    margin-bottom: 1em;
+}
+
+/* sec end */
+
+/* footer start */
+
+.footer-hr {
+    margin-bottom: 0.3em;
+    margin-top: 5em;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em 0.4em;
+}
+
+.msg {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 0.833rem;
+}
+
+.devname {
+    margin-bottom: 1em;
+    font-weight: 200;
+    font-size: 0.6rem;
+}
+
+.footer i {
+    font-size: 1.5rem;
+}
+
+/* footer end */

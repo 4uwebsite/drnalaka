@@ -1,0 +1,21 @@
+.fade-up {
+    opacity: 0;
+    transform: translateY(50px); /* Move the div down by 50px */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transition for opacity and transform */
+}
+  
+.fade-up.show {
+    opacity: 1;
+    transform: translateY(0); /* Move the div back to its original position */
+}
+
+
+/* Section Title Animation */
+@keyframes sec-title-box-shaddow {
+    from {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    to {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+}

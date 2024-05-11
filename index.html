@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Nalaka Gunawansa - Website Analysis</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- JS -->
+    <script src="animation.js" defer></script>
+    <script src="floating-button.js" defer></script>
+    
+</head>
+<body>
+
+    <!-- floating button start -->
+    <button class="floating-button floaty" id="floatingBtn"><i class="fa-solid fa-turn-up"></i></button>
+    <!-- floating button end -->
+
+    <!-- page-container start -->
+    <div class="page-container fade-up">
+        
+        <!-- doc-title start -->
+        <div class="doc-title txt-center">
+            <span class="doc-name">website analysis:</span> <span class="domain-name red"><a href="http://drnalaka.com" target="_blank" rel="noopener noreferrer">drnalaka.com</a></span>
+        </div>
+        <!-- doc-title end -->
+
+        <!-- logo-sec start -->
+        <div class="logo-sec">
+            <img src="./assets/logo.png" alt="Dr. Nalaka Gunawansa logo.">
+        </div>
+        <!-- logo-sec end -->
+
+        <!-- docmeta-sec start -->
+        <div class="docmeta-sec">
+            <div class="col">
+                <div class="label">
+                    <ul>
+                        <li>Client</li>
+                        <li>Contact Person</li>
+                    </ul>
+                </div>
+                <div class="value">
+                    <ul>
+                        <li>Mathish Healthcare Technologies</li>
+                        <li>Mathish Amerasinghe</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col">
+                    <div class="label">
+                        <ul>
+                            <li>Developer</li>
+                            <li>Proposal Version</li>
+                            <li>Date</li>
+                        </ul>
+                    </div>
+                    <div class="value">
+                        <ul>
+                            <li>Ramith Nanayakkara</li>
+                            <li>DNG1.0.0</li>
+                            <li>11 May 2024</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        <!-- docmeta-sec end -->
+
+    </div>
+    <!-- page-container end -->
+    <hr class="header-hr">
+
+    <!-- Domain Registration & Hosting start -->
+    <!-- sec start -->
+    <div class="sec">
+        <div class="sec-title"><i class="fa-solid fa-globe"></i> Domain Registration & Hosting</div>
+        <div class="sec-body">
+            <div class="sec-col">
+                <ul>
+                    <li><span class="list-label">Registered On:</span> 2024-04-02</li>
+                    <li><span class="list-label">Registrar:</span> GoDaddy.com, LLC</li>
+                    <li><span class="list-label">Name Servers:</span> 
+                        <ul>
+                            <li>ns25.domaincontrol.com</li>
+                            <li>ns26.domaincontrol.com</li> 
+                        </ul>
+                    </li>
+                    <li><span class="list-label">Web Hosting Provider:</span> GoDaddy.com, LLC</li>
+                </ul>
+            </div>
+            <div class="sec-col">
+                <ul>
+                    <li><span class="list-label">Web Server:</span> Apache</li>
+                    <li><span class="list-label">IP address:</span> 173.201.190.138</li>
+                    <li><span class="list-label">Country:</span> United States</li>
+                    <li><span class="list-label">Region:</span> AZ</li>
+                    <li><span class="list-label">City:</span> Tempe</li>
+                </ul>
+            </div>
+            <div class="note">Note: Considering the tech-stack of this website, consider moving to a cheaper host from next renewal.</div>
+        </div>
+    </div>
+    <!-- sec end -->
+    <!-- Domain Registration & Hosting end -->
+
+    <!-- Security start -->
+    <!-- sec start -->
+    <div class="sec">
+        <div class="sec-title"><i class="fa-solid fa-shield-halved"></i> Security</div>
+        <div class="sec-body">
+            <div class="sec-col">
+                <div class="sec-h1">No HTTPS (Hypertext Transfer Protocol Secure)</div>
+                <p>HTTPS uses encryption to secure the data exchanged between the browser and the website. HTTPS is important to a website for several reasons:</p>
+                <p><span class="txt-bold">Data Security:</span> HTTPS encrypts data transmitted between the user's browser and the website's server, preventing unauthorized access to sensitive information.</p>
+                <p><span class="txt-bold">User Privacy:</span> HTTPS helps protect the privacy of users by ensuring that their interactions with the website are secure and cannot be intercepted by third parties.</p>
+                <p><span class="txt-bold">Trust and Credibility:</span> Websites that use HTTPS are considered more trustworthy by users because they demonstrate a commitment to security and protecting user data.</p>
+            </div>
+            <div class="sec-col">
+                <p><span class="txt-bold">SEO Benefits:</span> Search engines like Google prioritize websites that use HTTPS in their search rankings, providing an SEO boost to websites that implement it.</p>
+                <p><span class="txt-bold">Compliance:</span> In many jurisdictions, regulations such as the General Data Protection Regulation (GDPR) mandate the use of HTTPS for websites that handle sensitive user data.</p>
+                <p>Overall, HTTPS is essential for maintaining the security, privacy, and integrity of data exchanged between users and websites on the internet.</p>
+            </div>
+        </div>
+    </div>
+    <!-- sec end -->
+    <!-- Security end -->
+
+    <!-- UI/UX start -->
+    <!-- sec start -->
+    <div class="sec">
+        <div class="sec-title"><i class="fa-solid fa-hand-point-up"></i> UI/UX <span class="note">(User Interface / User Experience)</span></div>
+        <div class="sec-body">
+            <div class="sec-col">
+                <div class="sec-h1">Overuse of Animations</div>
+                <p>Animations should be strategically used. Currently almost every element on the page loads with an animation. Ideally, you only want to animate elements that should grab the user’s attention; i.e. CTA (Call to Action) elements, important content, situations where user input/interaction is required. Overuse of animations makes the page look complicated to the user and fails to distinguish between what should/shouldn’t grab the user’s attention.</p>
+                <div class="sec-h1">Typography</div>
+                <p>Menus/Headings font-family (stack): Poppins, sans-serif</p>
+                <p>Subheadings/Body font-family (stack): Quicksand, sans-serif</p>
+                <p>Inconsistent hierarchical typography in the website gives poor UX. Good typographical hierarchy helps the users intuitively distinguish the structure of the content.</p>
+                <div class="sec-h1">Sizing & Spacing</div>
+                <p>When it comes to sizing and spacing elements on a webpage, it's essential to prioritize content hierarchy and readability. This is particularly crucial for medical websites, where users seek valuable information rather than visual appeal. If the layout and organization of information are confusing or overwhelming, users are more likely to leave the website, resulting in increased bounce rates. Therefore, it's important to ensure that the structure of the page is clear and easy for users to understand, enhancing their overall experience and keeping them engaged with the content.</p>
+                <div class="sec-h1">Mobile Menu</div>
+                <p>Poorly designed and feels sluggish when using because of the lack of smooth transitions.</p>
+            </div>
+            <div class="sec-col">
+                <div class="sec-h1">Low Quality Graphics</div>
+                <p>Poor quality images make the website look outdated. Studies show users tend to trust websites with better quality images. There are no fallback images for high resolution retina display available in Apple devices.</p>
+                <div class="sec-h1">UI Elements Doesn’t Work</div>
+                <p>Some UI elements gives the user the impression they are clickable, but offers no such functionality. This creates an inconsistency in the UI which leads to a bad UX.</p>
+                <div class="sec-h1">Page Hero Image</div>
+                <p>The main banner image at the top of a page is known as the hero image. For pages (apart from the homepage) this image is too large, creating visually odd negative space. This is considered as a suboptimal UI/UX design.</p>
+                <div class="sec-h1">Blog Archive Page</div>
+                <p>This page is poorly designed and the featured image for posts are too large, where the post title and excerpt aren’t clearly discernible. Blog also doesn’t have categorization, tagging, and filtering features. This is both critical for providing a good UX and SEO.</p>
+                <div class="sec-h1">UI Element Feedback</div>
+                <p>When the user interacts with an UI element (click a link/button) the element should provide feedback (i.e. click effect for buttons) that the action occurred. This is incontinent throughout the website.</p>
+                <div class="sec-h1">General UI/UX Inconsistency</div>
+                <p>As a whole, the website’s UI/UX lacks consistency in terms of hierarchy and legibility.</p>
+            </div>
+        </div>
+    </div>
+    <!-- sec end -->
+    <!-- UI/UX end -->
+
+    <!-- SEO start -->
+    <!-- sec start -->
+    <div class="sec">
+        <div class="sec-title"><i class="fa-solid fa-magnifying-glass"></i> SEO <span class="note">(Search Engine Optimization)</span></div>
+        <div class="sec-body">
+            <div class="sec-col">
+                <div class="sec-h1">Empty Alt Tags</div>
+                <p>Alt tags (alternative text), are important for SEO for several reasons:</p>
+                <p><span class="txt-bold">Accessibility:</span> Alt tags provide a textual description of images on a webpage, making them accessible to visually impaired users who use screen readers to browse the web. This is especially important for a website related to the medical field.</p>
+                <p><span class="txt-bold">Image SEO:</span> Search engines cannot interpret images in the same way humans do. Alt tags provide search engines with contextual information about the content of the images, helping them understand what the images are about. This improves the chances of the images appearing in relevant search results.</p>
+                <p><span class="txt-bold">Keyword Optimization:</span> Alt tags offer an opportunity to include relevant keywords related to the content of the webpage.</p>
+                <div class="sec-h1">Duplicate Content</div>
+                <p>In some pages the same content is repeated. This is considered bad SEO and search engines often categorise this as keyword loading, leading to poor rankings.</p>
+            </div>
+            <div class="sec-col">
+                <div class="sec-h1">Accordions used for FAQs</div>
+                <p>This is not a good technique when the invisible accordion body content is SEO rich.</p>
+                <div class="sec-h1">YouTube Embedding and Metadata</div>
+                <p>When embedding YouTube videos, you would ideally want to include metadata related to the video. This creates a stronger link (from SEO perspective) between YouTube and the website, which intern enhances SEO. </p>
+                <div class="sec-h1">Poor HTML Page Naming</div>
+                <p>Modern search engines (like Google) utilises LLMs (Large Language Models) popularly known as AI. These systems are context aware. For example, the “About” page on the website is named “aboutus.html” while the page essentially talks about an individual (Dr. Gunawansa). This leads to search engine misclassification issues.</p>
+                <div class="sec-h1">Poorly Implemented Photo Gallery</div>
+                <p>Photo galleries offer a great opportunity for SEO, if the photos are properly implemented and metadata included. In this case, it is poorly implemented.</p>
+            </div>
+        </div>
+    </div>
+    <!-- sec end -->
+    <!-- SEO end -->
+    
+    <!-- Performance start -->
+    <!-- sec start -->
+    <div class="sec">
+        <div class="sec-body">
+            <div class="sec-col">
+                <div class="sec-title performance-bugs"><i class="fa-solid fa-gauge-high"></i> Performance</div>
+                <div class="sec-h1">Bootstrap</div>
+                <p>Bootstrap is a free and open-source front-end framework for developing responsive and mobile-first layouts. While it is useful for large dynamic websites, for a static website of this scale, it is overkill. The Bootstrap framework is large and this website only uses a very small portion of it. This means a considerable percentage of the website’s assets are unused. This negatively affects page load speeds, thereby reducing performance.</p>
+            </div>
+            <div class="sec-col">
+                <div class="sec-title performance-bugs"><i class="fa-solid fa-bug"></i> Bugs & Errors</div>
+                <div class="sec-h1">Broken Elements</div>
+                <p>Some elements contain broken/inactive links (i.e. Twitter, Instagram icons).</p>
+                <div class="sec-h1">Mobile Menu</div>
+                <p>The mobile menu is visible on desktop, when only the desktop menu should be visible.</p>
+            </div>
+        </div>
+    </div>
+    <!-- sec end -->
+    <!-- Performance end -->
+
+    <!-- Footer start -->
+    <hr class="header-hr footer-hr">
+    <div class="footer">
+        <div class="footer-col">
+            <div class="msg">"Thank you for considering me for your website project."</div>
+            <div class="devname">- Ramith Nanayakkara (Web Developer)</div>
+        </div>
+        <div class="footer-col">
+            <div>
+                <a href="tel://+94702338773"><i class="fa-solid fa-square-phone"></i></a>
+                <a href="https://wa.me/94702338773?text=Website%20proposal"><i class="fa-brands fa-square-whatsapp contact contact-middle"></i></a>
+                <a href="mailto:ramee.nana@gmail.com"><i class="fa-solid fa-square-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer end -->
+
+</body>
+</html>
